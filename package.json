@@ -1,0 +1,18 @@
+{
+    "packageManager": "yarn@3.2.3",
+    "name": "snail-mail",
+    "version": "1.0.0",
+    "repository": "https://github.com/CodenameLiam/snail-mail.git",
+    "author": "Liam Percy",
+    "license": "MIT",
+    "workspaces": [
+        "packages/*"
+    ],
+    "scripts": {
+        "functions": "yarn workspace functions",
+        "schema": "yarn workspace schema"
+    },
+    "devDependencies": {
+        "typescript": "4.8.3"
+    }
+}
